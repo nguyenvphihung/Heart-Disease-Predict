@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 import pickle
-from flask_socketio import SocketIO, send, emit
+from flask_socketio import SocketIO, emit
 
 
 app = Flask(__name__)
