@@ -30,3 +30,32 @@ The main files and directories in this project are:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/nguyenvphihung/Heart-Disease-Prediction.git
+
+Dưới đây là phần hướng dẫn sử dụng mà bạn có thể thêm vào file `README.md`:  
+
+---
+
+## Usage Instructions  
+
+### 1. Run the Application  
+After setting up the project by following the setup instructions:  
+- Navigate to the project directory.  
+- Start the Flask application by running:  
+  ```bash  
+  python app.py  
+  ```  
+- Open a web browser and go to: `http://127.0.0.1:5000`  
+
+### 2. Use the Features  
+
+#### Heart Disease Prediction  
+1. On the main page (`index.html`), enter the required health data in the input fields.  
+2. Click the "Predict" button to get the probability of having heart disease.  
+
+#### Nutrition Recommendation  
+- Based on the prediction results, the application will provide dietary suggestions to help manage your health.  
+
+#### Real-time Doctor Chat  
+1. Navigate to the "Chat with a Doctor" page (`doctor.html`).  
+2. Use the real-time chat interface to communicate directly with a doctor for further assistance.  
+
