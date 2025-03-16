@@ -4,7 +4,7 @@ from flask_socketio import SocketIO, emit
 
 
 app = Flask(__name__)
-model = pickle.load(open('C:/Users/Admin/Documents/RandomForest-Prediction-Web-Application-master/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 socketio = SocketIO(app)
 
 def recommend_nutrition(probability):
